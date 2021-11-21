@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Job-Finder-Template/static/css/main.345f63f7.chunk.css",
+    "main.js": "/Job-Finder-Template/static/js/main.e56578c2.chunk.js",
+    "main.js.map": "/Job-Finder-Template/static/js/main.e56578c2.chunk.js.map",
+    "runtime-main.js": "/Job-Finder-Template/static/js/runtime-main.6b88db59.js",
+    "runtime-main.js.map": "/Job-Finder-Template/static/js/runtime-main.6b88db59.js.map",
+    "static/js/2.371c9302.chunk.js": "/Job-Finder-Template/static/js/2.371c9302.chunk.js",
+    "static/js/2.371c9302.chunk.js.map": "/Job-Finder-Template/static/js/2.371c9302.chunk.js.map",
+    "index.html": "/Job-Finder-Template/index.html",
+    "static/css/main.345f63f7.chunk.css.map": "/Job-Finder-Template/static/css/main.345f63f7.chunk.css.map",
+    "static/js/2.371c9302.chunk.js.LICENSE.txt": "/Job-Finder-Template/static/js/2.371c9302.chunk.js.LICENSE.txt",
+    "static/media/YouOnline.02faf022.svg": "/Job-Finder-Template/static/media/YouOnline.02faf022.svg",
+    "static/media/app.css": "/Job-Finder-Template/static/media/subscribe.7da6f50d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b88db59.js",
+    "static/js/2.371c9302.chunk.js",
+    "static/css/main.345f63f7.chunk.css",
+    "static/js/main.e56578c2.chunk.js"
+  ]
+}
