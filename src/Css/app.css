@@ -1,0 +1,137 @@
+:root:root:root:root {
+    --primary-color: #2ad234;
+    --secondary-color: #f7f3f3;
+    --dark-color: #867e7e;
+}
+
+.theme-font-color {
+    color: var(--primary-color) !important;
+}
+
+.theme-font-dark-color {
+    color: var(--dark-color) !important;
+}
+
+.theme-font-dark-light {
+    color: var(--secondary-color-color) !important;
+}
+
+.theme-background {
+    background-color: var(--secondary-color) !important;
+}
+
+.theme-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.theme-background-dark {
+    background-color: var(--dark-color) !important;
+}
+
+.my-btn {
+    border: 1px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar-sm {
+    width: 42px;
+    height: 42px;
+}
+
+:focus {
+    box-shadow: 0 0 0 0.25rem rgb(42 210 52 / 25%) !important;
+}
+
+/* increasing the specificity of the class to avoid !important*/
+.cstm-dropdown.cstm-dropdown.cstm-dropdown.cstm-dropdown.cstm-dropdown.cstm-dropdown {
+    padding: 11px 25px;
+    border-radius: 12px;
+    color: #867e7e;
+}
+
+.cstm-search {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ei-location.svg/2048px-Ei-location.svg.png) !important;
+    background-size: 22px 20px !important;
+}
+
+.fs-12 {
+    font-size: 11px;
+}
+
+.fs-12>h6 {
+    font-size: 14px;
+}
+
+.card-round {
+    border-radius: 12px;
+}
+
+.text-grey {
+    color: #867e7e;
+}
+
+.cstm-text-light {
+    color: #979797;
+}
+
+.subscribe {
+    background-image: url(/src/Img/subscribe.png);
+}
+
+.logo {
+    width: 75%;
+}
+
+@media screen and (max-width:768px) {
+    .cstm-nav.cstm-nav.cstm-nav.cstm-nav.cstm-nav {
+        display: none !important;
+    }
+
+    .cstm-dropdown.cstm-dropdown.cstm-dropdown.cstm-dropdown.cstm-dropdown.cstm-dropdown {
+        padding: 8px 15px !important;
+        font-size: 13px;
+    }
+
+    .cstm-nav-icons.cstm-nav-icons.cstm-nav-icons.cstm-nav-icons {
+        padding: 14px 0 !important;
+    }
+
+    .responsive-margin.responsive-margin.responsive-margin.responsive-margin {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        width: 42% !important;
+    }
+
+    .logo {
+        width: 34%;
+    }
+
+    .avatar-responsive.avatar-responsive.avatar-responsive {
+        display: block !important;
+    }
+
+    .justify-content-between-responsive {
+        justify-content: space-between;
+    }
+
+    .btn-responsive.btn-responsive.btn-responsive.btn-responsive.btn-responsive {
+        margin: 1px !important;
+        padding-left: 9px !important;
+        padding-right: 5px !important;
+    }
+    .input-responsive.input-responsive.input-responsive.input-responsive{
+        width:100% !important;
+    }
+
+    .subscribe.subscribe.subscribe.subscribe.subscribe.subscribe{
+        padding:10px !important;
+    }
+}
